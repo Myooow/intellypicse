@@ -1,5 +1,5 @@
 import { connectToDatabase } from '@/lib/database/db';
-import UserModel from '@/lib/database/models/User';
+import UserModel from '@/lib/database/models/user.model';
 import { NextResponse } from 'next/server';
 
 interface NewUserRequest {
